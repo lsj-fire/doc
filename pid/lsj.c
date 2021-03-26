@@ -3,4 +3,5 @@
 void main(){
 	char c;
 	printf("size of char is: %d!! \n",(int)sizeof(c));
+	
 }
