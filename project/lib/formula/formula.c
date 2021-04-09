@@ -10,7 +10,7 @@ int *max(int *addr,int num){
 }
 int *min(int *addr,int num){
 	static int value=65536;
-	for(int i=0;i<num;i++){ 
+	for(int i=0;i<num;i++){    
 		if(value>*(addr+i))
 			value=*(addr+i);
 	}

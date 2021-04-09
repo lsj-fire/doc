@@ -11,7 +11,7 @@ void main(){
 	for(int k=0;k<sizeof(a)/4;k++) {
          	printf("%d\t",*asc++);  
        }    
-       printf("\n");  
+       printf("\n");       
        dec=descend(a,sizeof(a)/4);
        for(int i=0;i<sizeof(a)/4;i++) {     
          	printf("%d\t",*dec++);    
